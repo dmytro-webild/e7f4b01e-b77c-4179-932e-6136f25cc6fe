@@ -81,13 +81,13 @@ export default function LandingPage() {
               id: "upload",              title: "Lightning Fast Upload",              descriptions: [
                 "Upload multiple notes instantly with our optimized uploader",                "Support for PDF, images, and text documents"
               ],
-              imageSrc: "http://img.b2bpic.net/free-photo/computers-data-center-running-server-rigs-diagnostic-tests_482257-118495.jpg",              imageAlt: "notes organization app interface design"
+              imageSrc: "http://img.b2bpic.net/free-photo/computers-data-center-running-server-rigs-diagnostic-tests_482257-118495.jpg?_wi=1",              imageAlt: "notes organization app interface design"
             },
             {
               id: "organize",              title: "Smart Organization",              descriptions: [
                 "Automatically categorize notes with intelligent tagging",                "Create custom folders and collections for easy access"
               ],
-              imageSrc: "http://img.b2bpic.net/free-photo/computers-data-center-running-server-rigs-diagnostic-tests_482257-118495.jpg",              imageAlt: "notes organization app interface design"
+              imageSrc: "http://img.b2bpic.net/free-photo/computers-data-center-running-server-rigs-diagnostic-tests_482257-118495.jpg?_wi=2",              imageAlt: "notes organization app interface design"
             },
             {
               id: "sync",              title: "Seamless Sync",              descriptions: [
@@ -125,7 +125,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           imagePosition="right"
-          imageSrc="http://img.b2bpic.net/free-photo/still-life-office-desk-mess_23-2150164848.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/still-life-office-desk-mess_23-2150164848.jpg?_wi=1"
           imageAlt="Productive workspace"
           mediaAnimation="slide-up"
           bulletPoints={[
@@ -226,7 +226,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-photo/still-life-office-desk-mess_23-2150164848.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/still-life-office-desk-mess_23-2150164848.jpg?_wi=2"
           imageAlt="NoteHub workspace"
           logoText="NoteHub"
           copyrightText="© 2025 NoteHub. All rights reserved."
