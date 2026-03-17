@@ -143,7 +143,7 @@ export default function LandingPage() {
             }
           ]}
           buttons={[
-            { text: "Start Free Trial", href: "#contact" }
+            { text: "Start 14-Day Free Trial", href: "#contact" }
           ]}
           buttonAnimation="slide-up"
         />
@@ -218,7 +218,7 @@ export default function LandingPage() {
           useInvertedBackground={false}
           animationType="reveal-blur"
           buttons={[
-            { text: "Start Free Trial", href: "#" },
+            { text: "Start 14-Day Free Trial", href: "#" },
             { text: "Contact Sales", href: "#" }
           ]}
         />
