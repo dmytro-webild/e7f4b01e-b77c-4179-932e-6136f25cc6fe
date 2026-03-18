@@ -102,8 +102,8 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/female-wedding-planner-working-with-couple_23-2150167183.jpg",              imageAlt: "document sharing collaboration interface design"
             },
             {
-              id: "paid-upload",              title: "Premium Paid Notes",              descriptions: [
-                "Upload paid study materials and digital content",                "Monetize your expertise with our revenue-sharing model"
+              id: "paid-upload",              title: "Upload and Sell Study Materials",              descriptions: [
+                "Share your expertise by selling study materials on our platform",                "Earn 70% Revenue Share on Every Sale"
               ]
             },
             {
