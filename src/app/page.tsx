@@ -9,7 +9,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Users, Zap } from 'lucide-react';
+import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Users, Zap, CreditCard, FileUp } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -102,8 +102,8 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/female-wedding-planner-working-with-couple_23-2150167183.jpg",              imageAlt: "document sharing collaboration interface design"
             },
             {
-              id: "search",              title: "Advanced Search",              descriptions: [
-                "Find any note instantly with powerful full-text search",                "Filter by date, category, or tags"
+              id: "paid-upload",              title: "Premium Paid Notes",              descriptions: [
+                "Upload paid study materials and digital content",                "Monetize your expertise with our revenue-sharing model"
               ]
             },
             {
@@ -205,7 +205,7 @@ export default function LandingPage() {
               id: "5",              title: "Is there an offline mode?",              content: "Yes, the NoteHub app allows you to download notes for offline access. Changes sync automatically when you reconnect to the internet."
             },
             {
-              id: "6",              title: "How do I export my notes?",              content: "You can export notes individually or in bulk as PDF, Word, or ZIP files. Exporting is available at any time for all users."
+              id: "6",              title: "How do I upload and sell my notes?",              content: "You can upload paid notes directly from your dashboard. Set your own price, and we'll handle the payment processing. You receive 70% of the revenue from each sale."
             }
           ]}
         />
