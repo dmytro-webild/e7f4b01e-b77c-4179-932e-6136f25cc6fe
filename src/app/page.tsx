@@ -102,8 +102,8 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/female-wedding-planner-working-with-couple_23-2150167183.jpg",              imageAlt: "document sharing collaboration interface design"
             },
             {
-              id: "paid-upload",              title: "Upload and Sell Study Materials",              descriptions: [
-                "Share your expertise by selling study materials on our platform",                "Earn 70% Revenue Share on Every Sale"
+              id: "paid-upload",              title: "Upload and Sell Study Materials: Earn 70% Revenue Share on Every Sale",              descriptions: [
+                "Share your expertise by uploading and selling study materials on our platform",                "Support both paid and free notes uploads. Earn passive income from your knowledge"
               ]
             },
             {
@@ -205,7 +205,7 @@ export default function LandingPage() {
               id: "5",              title: "Is there an offline mode?",              content: "Yes, the NoteHub app allows you to download notes for offline access. Changes sync automatically when you reconnect to the internet."
             },
             {
-              id: "6",              title: "How do I upload and sell my notes?",              content: "You can upload paid notes directly from your dashboard. Set your own price, and we'll handle the payment processing. You receive 70% of the revenue from each sale."
+              id: "6",              title: "How do I upload and sell my notes?",              content: "You can upload paid and free notes directly from your dashboard. Set your own price for paid notes, and we'll handle the payment processing. You receive 70% of the revenue from each sale."
             }
           ]}
         />
