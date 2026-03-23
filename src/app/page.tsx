@@ -213,7 +213,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactText
-          text="Ready to organize your notes? Join thousands of users who trust NoteHub with their important information. Start your free trial today—no credit card required. Contact us via Easypaisa: 0324-6197923"
+          text="Start Your Free 14-Day Trial Today—No Credit Card Required. Ready to organize your notes? Join thousands of users who trust NoteHub with their important information. Contact us via Easypaisa: 0324-6197923"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           animationType="reveal-blur"
