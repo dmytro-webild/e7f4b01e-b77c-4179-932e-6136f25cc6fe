@@ -81,35 +81,37 @@ export default function LandingPage() {
               id: "upload",              title: "Lightning Fast Upload",              descriptions: [
                 "Upload multiple notes instantly with our optimized uploader",                "Support for PDF, images, and text documents"
               ],
-              imageSrc: "http://img.b2bpic.net/free-photo/computers-data-center-running-server-rigs-diagnostic-tests_482257-118495.jpg?_wi=1",              imageAlt: "notes organization app interface design"
+              imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg",              imageAlt: "notes organization app interface design"
             },
             {
               id: "organize",              title: "Smart Organization",              descriptions: [
                 "Automatically categorize notes with intelligent tagging",                "Create custom folders and collections for easy access"
               ],
-              imageSrc: "http://img.b2bpic.net/free-photo/computers-data-center-running-server-rigs-diagnostic-tests_482257-118495.jpg?_wi=2",              imageAlt: "notes organization app interface design"
+              imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg",              imageAlt: "smart digital file organization"
             },
             {
               id: "sync",              title: "Seamless Sync",              descriptions: [
                 "Access your notes across all your devices in real-time",                "Changes sync automatically to the cloud"
               ],
-              imageSrc: "http://img.b2bpic.net/free-vector/landing-page-with-smartphone-concept_23-2148340738.jpg",              imageAlt: "cloud sync data synchronization interface"
+              imageSrc: "http://img.b2bpic.net/free-photo/admin-secures-high-tech-workspace_482257-95710.jpg",              imageAlt: "cloud sync data synchronization interface"
             },
             {
               id: "share",              title: "Secure Sharing",              descriptions: [
                 "Share notes with granular permission controls",                "Invite others to collaborate on your notes"
               ],
-              imageSrc: "http://img.b2bpic.net/free-photo/female-wedding-planner-working-with-couple_23-2150167183.jpg",              imageAlt: "document sharing collaboration interface design"
+              imageSrc: "http://img.b2bpic.net/free-vector/steal-data-cyber-attack-concept_23-2148534822.jpg",              imageAlt: "document sharing collaboration interface design"
             },
             {
               id: "paid-upload",              title: "Upload and Sell Study Materials: Earn 70% Revenue Share on Every Sale",              descriptions: [
                 "Share your expertise by uploading and selling study materials on our platform",                "Support both paid and free notes uploads. Earn passive income from your knowledge"
-              ]
+              ],
+              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-men-women-working-toghether-wearing-casual-clothe_1139-988.jpg",              imageAlt: "earn money selling study notes"
             },
             {
               id: "security",              title: "Enterprise Security",              descriptions: [
                 "End-to-end encryption for all your notes",                "GDPR compliant with automatic backups"
-              ]
+              ],
+              imageSrc: "http://img.b2bpic.net/free-vector/security-system-technologies_24877-53387.jpg",              imageAlt: "data security and encryption"
             }
           ]}
         />
