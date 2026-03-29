@@ -228,7 +228,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-photo/still-life-office-desk-mess_23-2150164848.jpg?_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B4BkMMnBDsJZ9JZB7F0iM35O4R/uploaded-1774761496451-80gds6dh.png"
           imageAlt="NoteHub workspace"
           logoText="NoteHub"
           copyrightText="© 2025 NoteHub. All rights reserved."
