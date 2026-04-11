@@ -76,7 +76,6 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          gridVariant="bento-grid"
           features={[
             { id: "upload", title: "Lightning Fast Upload", descriptions: ["Upload multiple notes instantly with our optimized uploader", "Support for PDF, images, and text documents"], imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg", imageAlt: "notes organization" },
             { id: "organize", title: "Smart Organization", descriptions: ["Automatically categorize notes with intelligent tagging", "Create custom folders and collections for easy access"], imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg", imageAlt: "smart organization" },
@@ -97,7 +96,6 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={true}
           animationType="blur-reveal"
-          gridVariant="three-columns-all-equal-width"
           features={[
              {
                id: "sell-notes",               title: "Upload and Earn",               descriptions: ["Upload your class notes, summaries, and lecture slides.", "Earn 70% revenue share on every sale to other students."],
@@ -186,6 +184,7 @@ export default function LandingPage() {
         <FooterMedia
           logoText="NoteHub"
           copyrightText="© 2025 NoteHub. All rights reserved."
+          imageSrc="http://img.b2bpic.net/free-photo/happy-professional_1098-12931.jpg"
           columns={[
             { title: "Product", items: [{ label: "Features", href: "#features" }, { label: "Upload", href: "#upload-notes" }] },
             { title: "Company", items: [{ label: "About", href: "#about" }, { label: "Contact", href: "#contact" }] }
