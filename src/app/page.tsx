@@ -9,7 +9,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Zap, FileUp } from 'lucide-react';
+import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Zap, FileUp, Users } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -77,11 +77,11 @@ export default function LandingPage() {
           useInvertedBackground={false}
           animationType="slide-up"
           features={[
-            { id: "upload", title: "Lightning Fast Upload", descriptions: ["Upload multiple notes instantly with our optimized uploader", "Support for PDF, images, and text documents"], imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg", imageAlt: "notes organization" },
-            { id: "organize", title: "Smart Organization", descriptions: ["Automatically categorize notes with intelligent tagging", "Create custom folders and collections for easy access"], imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg", imageAlt: "smart organization" },
-            { id: "sync", title: "Seamless Sync", descriptions: ["Access your notes across all your devices in real-time", "Changes sync automatically to the cloud"], imageSrc: "http://img.b2bpic.net/free-photo/admin-secures-high-tech-workspace_482257-95710.jpg", imageAlt: "cloud sync" },
-            { id: "share", title: "Secure Sharing", descriptions: ["Share notes with granular permission controls", "Invite others to collaborate on your notes"], imageSrc: "http://img.b2bpic.net/free-vector/steal-data-cyber-attack-concept_23-2148534822.jpg", imageAlt: "secure sharing" },
-            { id: "security", title: "Enterprise Security", descriptions: ["End-to-end encryption for all your notes", "GDPR compliant with automatic backups"], imageSrc: "http://img.b2bpic.net/free-vector/security-system-technologies_24877-53387.jpg", imageAlt: "security" }
+            { id: "upload", title: "Lightning Fast Upload", descriptions: ["Upload multiple notes instantly with our optimized uploader", "Support for PDF, images, and text documents"], imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg" },
+            { id: "organize", title: "Smart Organization", descriptions: ["Automatically categorize notes with intelligent tagging", "Create custom folders and collections for easy access"], imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg" },
+            { id: "sync", title: "Seamless Sync", descriptions: ["Access your notes across all your devices in real-time", "Changes sync automatically to the cloud"], imageSrc: "http://img.b2bpic.net/free-photo/admin-secures-high-tech-workspace_482257-95710.jpg" },
+            { id: "share", title: "Secure Sharing", descriptions: ["Share notes with granular permission controls", "Invite others to collaborate on your notes"], imageSrc: "http://img.b2bpic.net/free-vector/steal-data-cyber-attack-concept_23-2148534822.jpg" },
+            { id: "security", title: "Enterprise Security", descriptions: ["End-to-end encryption for all your notes", "GDPR compliant with automatic backups"], imageSrc: "http://img.b2bpic.net/free-vector/security-system-technologies_24877-53387.jpg" }
           ]}
         />
       </div>
