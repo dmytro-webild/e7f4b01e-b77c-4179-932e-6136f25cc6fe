@@ -9,7 +9,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Users, Zap, FileUp } from 'lucide-react';
+import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Zap, FileUp } from 'lucide-react';
 
 export default function LandingPage() {
   return (
