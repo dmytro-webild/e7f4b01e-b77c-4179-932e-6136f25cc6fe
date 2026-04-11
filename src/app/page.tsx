@@ -9,7 +9,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Users, Zap, CreditCard, FileUp } from 'lucide-react';
+import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, Users, Zap, FileUp } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -30,6 +30,7 @@ export default function LandingPage() {
           brandName="NoteHub"
           navItems={[
             { name: "Features", id: "features" },
+            { name: "Study Notes", id: "upload-notes" },
             { name: "About", id: "about" },
             { name: "FAQ", id: "faq" },
             { name: "Contact", id: "contact" }
@@ -77,42 +78,39 @@ export default function LandingPage() {
           animationType="slide-up"
           gridVariant="bento-grid"
           features={[
-            {
-              id: "upload",              title: "Lightning Fast Upload",              descriptions: [
-                "Upload multiple notes instantly with our optimized uploader",                "Support for PDF, images, and text documents"
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg",              imageAlt: "notes organization app interface design"
-            },
-            {
-              id: "organize",              title: "Smart Organization",              descriptions: [
-                "Automatically categorize notes with intelligent tagging",                "Create custom folders and collections for easy access"
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg",              imageAlt: "smart digital file organization"
-            },
-            {
-              id: "sync",              title: "Seamless Sync",              descriptions: [
-                "Access your notes across all your devices in real-time",                "Changes sync automatically to the cloud"
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/admin-secures-high-tech-workspace_482257-95710.jpg",              imageAlt: "cloud sync data synchronization interface"
-            },
-            {
-              id: "share",              title: "Secure Sharing",              descriptions: [
-                "Share notes with granular permission controls",                "Invite others to collaborate on your notes"
-              ],
-              imageSrc: "http://img.b2bpic.net/free-vector/steal-data-cyber-attack-concept_23-2148534822.jpg",              imageAlt: "document sharing collaboration interface design"
-            },
-            {
-              id: "paid-upload",              title: "Upload and Sell Study Materials: Earn 70% Revenue Share on Every Sale",              descriptions: [
-                "Share your expertise by uploading and selling study materials on our platform",                "Support both paid and free notes uploads. Earn passive income from your knowledge"
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-men-women-working-toghether-wearing-casual-clothe_1139-988.jpg",              imageAlt: "earn money selling study notes"
-            },
-            {
-              id: "security",              title: "Enterprise Security",              descriptions: [
-                "End-to-end encryption for all your notes",                "GDPR compliant with automatic backups"
-              ],
-              imageSrc: "http://img.b2bpic.net/free-vector/security-system-technologies_24877-53387.jpg",              imageAlt: "data security and encryption"
-            }
+            { id: "upload", title: "Lightning Fast Upload", descriptions: ["Upload multiple notes instantly with our optimized uploader", "Support for PDF, images, and text documents"], imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg", imageAlt: "notes organization" },
+            { id: "organize", title: "Smart Organization", descriptions: ["Automatically categorize notes with intelligent tagging", "Create custom folders and collections for easy access"], imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg", imageAlt: "smart organization" },
+            { id: "sync", title: "Seamless Sync", descriptions: ["Access your notes across all your devices in real-time", "Changes sync automatically to the cloud"], imageSrc: "http://img.b2bpic.net/free-photo/admin-secures-high-tech-workspace_482257-95710.jpg", imageAlt: "cloud sync" },
+            { id: "share", title: "Secure Sharing", descriptions: ["Share notes with granular permission controls", "Invite others to collaborate on your notes"], imageSrc: "http://img.b2bpic.net/free-vector/steal-data-cyber-attack-concept_23-2148534822.jpg", imageAlt: "secure sharing" },
+            { id: "security", title: "Enterprise Security", descriptions: ["End-to-end encryption for all your notes", "GDPR compliant with automatic backups"], imageSrc: "http://img.b2bpic.net/free-vector/security-system-technologies_24877-53387.jpg", imageAlt: "security" }
+          ]}
+        />
+      </div>
+
+      <div id="upload-notes" data-section="upload-notes">
+        <FeatureCardTwentySeven
+          title="Upload Your Study Notes"
+          description="Contribute to our community library by uploading your study materials. Earn passive income or share knowledge for free!"
+          tag="Study Material Exchange"
+          tagIcon={FileUp}
+          tagAnimation="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={true}
+          animationType="blur-reveal"
+          gridVariant="three-columns-all-equal-width"
+          features={[
+             {
+               id: "sell-notes",               title: "Upload and Earn",               descriptions: ["Upload your class notes, summaries, and lecture slides.", "Earn 70% revenue share on every sale to other students."],
+               imageSrc: "http://img.b2bpic.net/free-photo/beautiful-men-women-working-toghether-wearing-casual-clothe_1139-988.jpg"
+             },
+             {
+               id: "community",               title: "Free Access",               descriptions: ["Share your knowledge for free to help your peers succeed.", "Build your reputation as a top contributor in the community."],
+               imageSrc: "http://img.b2bpic.net/free-photo/people-working-together-office-table_1150-13645.jpg"
+             },
+             {
+               id: "tools",               title: "Expert Tools",               descriptions: ["Use our advanced formatting tools for your documents.", "Monitor your performance with detailed analytics dashboard."],
+               imageSrc: "http://img.b2bpic.net/free-photo/high-angle-business-people-working-together_23-2148818579.jpg"
+             }
           ]}
         />
       </div>
@@ -120,7 +118,7 @@ export default function LandingPage() {
       <div id="about" data-section="about">
         <SplitAbout
           title="Built for Productivity"
-          description="NoteHub was created to solve the problem of scattered notes across multiple platforms. We believe organizing your thoughts should be simple, fast, and secure. Our platform brings everything together in one place, helping you focus on what matters most."
+          description="NoteHub was created to solve the problem of scattered notes. Our platform brings everything together in one place, helping you focus on what matters most."
           tag="Our Story"
           tagIcon={Lightbulb}
           tagAnimation="slide-up"
@@ -128,53 +126,29 @@ export default function LandingPage() {
           useInvertedBackground={false}
           imagePosition="right"
           imageSrc="http://img.b2bpic.net/free-photo/still-life-office-desk-mess_23-2150164848.jpg?_wi=1"
-          imageAlt="Productive workspace"
           mediaAnimation="slide-up"
           bulletPoints={[
-            {
-              title: "Intuitive Interface",              description: "Designed with users in mind. Upload and organize notes in seconds.",              icon: Zap
-            },
-            {
-              title: "Reliable Storage",              description: "Your notes are safe with redundant backups and encryption.",              icon: Lock
-            },
-            {
-              title: "Always Available",              description: "Access your notes anytime, anywhere from any device.",              icon: Globe
-            },
-            {
-              title: "Community Driven",              description: "Built with feedback from thousands of users like you.",              icon: Users
-            }
+            { title: "Intuitive Interface", description: "Upload and organize notes in seconds.", icon: Zap },
+            { title: "Reliable Storage", description: "Redundant backups and encryption.", icon: Lock },
+            { title: "Always Available", description: "Access your notes anytime, anywhere.", icon: Globe },
+            { title: "Community Driven", description: "Built with feedback from our users.", icon: Users }
           ]}
-          buttons={[
-            { text: "Start 14-Day Free Trial", href: "#contact" }
-          ]}
-          buttonAnimation="slide-up"
         />
       </div>
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardTwo
           title="Loved by Users Worldwide"
-          description="See what people are saying about NoteHub and how it has transformed their note-taking experience."
+          description="See how NoteHub has transformed the note-taking experience."
           tag="User Testimonials"
           tagIcon={Heart}
           tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          carouselMode="buttons"
           testimonials={[
-            {
-              id: "1",              name: "Sarah Chen",              role: "Graduate Student",              testimonial: "NoteHub has been a game-changer for my research. I can upload, organize, and access all my notes instantly. The search feature alone saves me hours every semester.",              imageSrc: "http://img.b2bpic.net/free-photo/happy-professional_1098-12931.jpg",              imageAlt: "Sarah Chen",              icon: Sparkles
-            },
-            {
-              id: "2",              name: "Michael Rodriguez",              role: "Project Manager",              testimonial: "Our team uses NoteHub to share meeting notes and project documentation. The collaboration features and permission controls are exactly what we needed.",              imageSrc: "http://img.b2bpic.net/free-photo/blond-business-woman-sitting-couch-smiling_23-2148095699.jpg",              imageAlt: "Michael Rodriguez",              icon: Sparkles
-            },
-            {
-              id: "3",              name: "Emma Thompson",              role: "Freelance Writer",              testimonial: "As someone juggling multiple projects, NoteHub keeps everything organized. I love how I can instantly sync between my laptop and phone.",              imageSrc: "http://img.b2bpic.net/free-photo/smiley-front-view-business-man_23-2148763836.jpg",              imageAlt: "Emma Thompson",              icon: Sparkles
-            },
-            {
-              id: "4",              name: "David Kumar",              role: "Business Consultant",              testimonial: "The security and backup features give me peace of mind. I never worry about losing important notes, and the interface is so clean and intuitive.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1674.jpg",              imageAlt: "David Kumar",              icon: Sparkles
-            }
+            { id: "1", name: "Sarah Chen", role: "Graduate Student", testimonial: "NoteHub has been a game-changer for my research.", imageSrc: "http://img.b2bpic.net/free-photo/happy-professional_1098-12931.jpg" },
+            { id: "2", name: "Michael Rodriguez", role: "Project Manager", testimonial: "Collaboration features are excellent.", imageSrc: "http://img.b2bpic.net/free-photo/blond-business-woman-sitting-couch-smiling_23-2148095699.jpg" }
           ]}
         />
       </div>
@@ -182,7 +156,7 @@ export default function LandingPage() {
       <div id="faq" data-section="faq">
         <FaqDouble
           title="Frequently Asked Questions"
-          description="Find answers to common questions about NoteHub. Can't find what you're looking for? Reach out to our support team."
+          description="Find answers to common questions about NoteHub."
           tag="Help Center"
           tagIcon={HelpCircle}
           tagAnimation="slide-up"
@@ -191,72 +165,30 @@ export default function LandingPage() {
           faqsAnimation="slide-up"
           animationType="smooth"
           faqs={[
-            {
-              id: "1",              title: "What file formats does NoteHub support?",              content: "NoteHub supports PDF, Microsoft Word documents, images (PNG, JPG), and text files. We're constantly adding support for more formats based on user requests."
-            },
-            {
-              id: "2",              title: "Is my data secure?",              content: "Yes. All data is encrypted end-to-end and stored in secure cloud servers with redundant backups. We comply with GDPR and other international data protection regulations."
-            },
-            {
-              id: "3",              title: "How much storage do I get?",              content: "Free accounts get 5GB of storage. Pro accounts include 100GB, and Enterprise plans offer unlimited storage. You can upgrade anytime."
-            },
-            {
-              id: "4",              title: "Can I share notes with others?",              content: "Absolutely. You can share individual notes or entire collections with specific people and control their access level (view, comment, or edit)."
-            },
-            {
-              id: "5",              title: "Is there an offline mode?",              content: "Yes, the NoteHub app allows you to download notes for offline access. Changes sync automatically when you reconnect to the internet."
-            },
-            {
-              id: "6",              title: "How do I upload and sell my notes?",              content: "You can upload paid and free notes directly from your dashboard. Set your own price for paid notes, and we'll handle the payment processing. You receive 70% of the revenue from each sale."
-            }
+            { id: "1", title: "What file formats?", content: "PDF, Word, images, text files." },
+            { id: "2", title: "Is it secure?", content: "End-to-end encryption and GDPR compliant." },
+            { id: "3", title: "Sell notes?", content: "Upload and set your price; we handle the rest." }
           ]}
         />
       </div>
 
       <div id="contact" data-section="contact">
         <ContactText
-          text="Start Your Free 14-Day Trial Today—No Credit Card Required. Ready to organize your notes? Join thousands of users who trust NoteHub with their important information. Contact us via Easypaisa: 0324-6197923"
+          text="Start Your Free 14-Day Trial Today—No Credit Card Required."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           animationType="reveal-blur"
-          buttons={[
-            { text: "Start 14-Day Free Trial", href: "#" },
-            { text: "Contact Sales", href: "#" }
-          ]}
+          buttons={[{ text: "Get Started", href: "#" }]}
         />
       </div>
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B4BkMMnBDsJZ9JZB7F0iM35O4R/uploaded-1774761496451-80gds6dh.png"
-          imageAlt="NoteHub workspace"
           logoText="NoteHub"
           copyrightText="© 2025 NoteHub. All rights reserved."
           columns={[
-            {
-              title: "Product",              items: [
-                { label: "Features", href: "#features" },
-                { label: "Pricing", href: "#" },
-                { label: "Security", href: "#" },
-                { label: "Roadmap", href: "#" }
-              ]
-            },
-            {
-              title: "Company",              items: [
-                { label: "About", href: "#about" },
-                { label: "Blog", href: "#" },
-                { label: "Careers", href: "#" },
-                { label: "Contact", href: "#contact" }
-              ]
-            },
-            {
-              title: "Legal",              items: [
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms of Service", href: "#" },
-                { label: "Cookie Policy", href: "#" },
-                { label: "GDPR", href: "#" }
-              ]
-            }
+            { title: "Product", items: [{ label: "Features", href: "#features" }, { label: "Upload", href: "#upload-notes" }] },
+            { title: "Company", items: [{ label: "About", href: "#about" }, { label: "Contact", href: "#contact" }] }
           ]}
         />
       </div>
