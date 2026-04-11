@@ -98,15 +98,15 @@ export default function LandingPage() {
           animationType="blur-reveal"
           features={[
              {
-               id: "sell-notes",               title: "Upload and Earn",               descriptions: ["Upload your class notes, summaries, and lecture slides.", "Earn 70% revenue share on every sale to other students."],
+               id: "sell-notes", title: "Upload and Earn", descriptions: ["Upload your class notes, summaries, and lecture slides.", "Earn 70% revenue share on every sale to other students."],
                imageSrc: "http://img.b2bpic.net/free-photo/beautiful-men-women-working-toghether-wearing-casual-clothe_1139-988.jpg"
              },
              {
-               id: "community",               title: "Free Access",               descriptions: ["Share your knowledge for free to help your peers succeed.", "Build your reputation as a top contributor in the community."],
+               id: "community", title: "Free Access", descriptions: ["Share your knowledge for free to help your peers succeed.", "Build your reputation as a top contributor in the community."],
                imageSrc: "http://img.b2bpic.net/free-photo/people-working-together-office-table_1150-13645.jpg"
              },
              {
-               id: "tools",               title: "Expert Tools",               descriptions: ["Use our advanced formatting tools for your documents.", "Monitor your performance with detailed analytics dashboard."],
+               id: "tools", title: "Expert Tools", descriptions: ["Use our advanced formatting tools for your documents.", "Monitor your performance with detailed analytics dashboard."],
                imageSrc: "http://img.b2bpic.net/free-photo/high-angle-business-people-working-together_23-2148818579.jpg"
              }
           ]}
