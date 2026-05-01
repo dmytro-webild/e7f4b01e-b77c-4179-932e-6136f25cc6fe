@@ -9,7 +9,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, FileUp } from 'lucide-react';
+import { Cloud, Globe, HelpCircle, Heart, Lightbulb, Lock, Search, Share2, Sparkles, Upload, FileUp, Zap, Users } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -76,7 +76,6 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          gridVariant="uniform-all-items-equal"
           features={[
             { id: "upload", title: "Lightning Fast Upload", descriptions: ["Upload multiple notes instantly with our optimized uploader", "Support for PDF, images, and text documents"], imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg", imageAlt: "notes organization app interface design" },
             { id: "organize", title: "Smart Organization", descriptions: ["Automatically categorize notes with intelligent tagging", "Create custom folders and collections for easy access"], imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg", imageAlt: "smart digital file organization" },
@@ -98,7 +97,6 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={true}
           animationType="slide-up"
-          gridVariant="uniform-all-items-equal"
           features={[
              { id: "upload-notes-1", title: "Quick Upload", descriptions: ["Drag and drop your notes directly into the secure portal", "Supports all common formats including PDF, DOCX, and images"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-of-a-person-holding-a-notebook-with-a-pen_23-2148408803.jpg", imageAlt: "upload notes" },
              { id: "upload-notes-2", title: "Manage & Monetize", descriptions: ["Add subject tags for quick discovery", "Choose to share freely or sell your high-quality notes"], imageSrc: "http://img.b2bpic.net/free-photo/notebook-and-pencil-on-wooden-table_23-2148116548.jpg", imageAlt: "organize notes" }
