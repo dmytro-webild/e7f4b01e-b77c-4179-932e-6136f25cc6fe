@@ -30,7 +30,7 @@ export default function LandingPage() {
           brandName="NoteHub"
           navItems={[
             { name: "Features", id: "features" },
-            { name: "Notes", id: "upload-notes" },
+            { name: "Upload Notes", id: "upload-notes" },
             { name: "About", id: "about" },
             { name: "FAQ", id: "faq" },
             { name: "Contact", id: "contact" }
@@ -76,13 +76,12 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          gridVariant="bento-grid"
           features={[
             { id: "upload", title: "Lightning Fast Upload", descriptions: ["Upload multiple notes instantly with our optimized uploader", "Support for PDF, images, and text documents"], imageSrc: "http://img.b2bpic.net/free-photo/business-woman-analyzing-data-using-computer-while-spending-time-office-beautiful-young-grinning-professional-woman-office-graphs-charts_657921-370.jpg", imageAlt: "notes organization app interface design" },
             { id: "organize", title: "Smart Organization", descriptions: ["Automatically categorize notes with intelligent tagging", "Create custom folders and collections for easy access"], imageSrc: "http://img.b2bpic.net/free-photo/yellow-blue-green-stickers-with-lettering-i-love-youn-pinned-white-wooden-floor_1304-2842.jpg", imageAlt: "smart digital file organization" },
             { id: "sync", title: "Seamless Sync", descriptions: ["Access your notes across all your devices in real-time", "Changes sync automatically to the cloud"], imageSrc: "http://img.b2bpic.net/free-photo/admin-secures-high-tech-workspace_482257-95710.jpg", imageAlt: "cloud sync data synchronization interface" },
             { id: "share", title: "Secure Sharing", descriptions: ["Share notes with granular permission controls", "Invite others to collaborate on your notes"], imageSrc: "http://img.b2bpic.net/free-vector/steal-data-cyber-attack-concept_23-2148534822.jpg", imageAlt: "document sharing collaboration interface design" },
-            { id: "paid-upload", title: "Upload and Sell Study Materials: Earn 70% Revenue Share on Every Sale", descriptions: ["Share your expertise by uploading and selling study materials on our platform", "Support both paid and free notes uploads. Earn passive income from your knowledge"], imageSrc: "http://img.b2bpic.net/free-photo/beautiful-men-women-working-toghether-wearing-casual-clothe_1139-988.jpg", imageAlt: "earn money selling study notes" },
+            { id: "paid-upload", title: "Earn from Your Notes", descriptions: ["Upload and sell your study materials", "Earn 70% revenue share on every sale"], imageSrc: "http://img.b2bpic.net/free-photo/beautiful-men-women-working-toghether-wearing-casual-clothe_1139-988.jpg", imageAlt: "earn money selling study notes" },
             { id: "security", title: "Enterprise Security", descriptions: ["End-to-end encryption for all your notes", "GDPR compliant with automatic backups"], imageSrc: "http://img.b2bpic.net/free-vector/security-system-technologies_24877-53387.jpg", imageAlt: "data security and encryption" }
           ]}
         />
@@ -90,18 +89,17 @@ export default function LandingPage() {
 
       <div id="upload-notes" data-section="upload-notes">
         <FeatureCardTwentySeven
-          title="Upload Your Study Notes"
-          description="Easily upload and organize your academic notes. Drag and drop your files or browse to select documents for instant processing and categorization."
-          tag="Study Tools"
-          tagIcon={PlusCircle}
+          title="Student Upload Portal"
+          description="Upload your academic notes, flashcards, and study guides. Easily categorize your materials to share with classmates or sell them to earn extra income."
+          tag="Upload Center"
+          tagIcon={FileUp}
           tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
           animationType="slide-up"
-          gridVariant="bento-grid"
           features={[
-             { id: "quick-add", title: "Quick Upload", descriptions: ["Drag and drop your notes directly into the browser", "Supports PDF, Word, and images"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-of-a-person-holding-a-notebook-with-a-pen_23-2148408803.jpg", imageAlt: "upload notes" },
-             { id: "organize-add", title: "Tag and Categorize", descriptions: ["Add subject tags and categories for easy searching", "Organize into custom study folders"], imageSrc: "http://img.b2bpic.net/free-photo/notebook-and-pencil-on-wooden-table_23-2148116548.jpg", imageAlt: "organize notes" }
+             { id: "upload-notes-1", title: "Quick Upload", descriptions: ["Drag and drop your notes directly into the secure portal", "Supports all common formats including PDF, DOCX, and images"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-of-a-person-holding-a-notebook-with-a-pen_23-2148408803.jpg", imageAlt: "upload notes" },
+             { id: "upload-notes-2", title: "Manage & Monetize", descriptions: ["Add subject tags for quick discovery", "Choose to share freely or sell your high-quality notes"], imageSrc: "http://img.b2bpic.net/free-photo/notebook-and-pencil-on-wooden-table_23-2148116548.jpg", imageAlt: "organize notes" }
           ]}
         />
       </div>
